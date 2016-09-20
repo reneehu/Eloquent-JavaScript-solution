@@ -57,3 +57,27 @@ function validstr(str) {
 }
 
 validstr("(()))");
+
+
+
+//closure
+
+//first class functions
+var foo = function(){
+	alert("hello world");
+};
+
+var bar = function(arg){
+	return arg;
+}
+bar(foo)();
+
+
+
+//inner/nested functions
+function add(value1, value2){
+	function addmore(c,d){
+		return c+a;
+	}
+}
+
