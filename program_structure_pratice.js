@@ -27,7 +27,7 @@ for(var counter=1;counter<=100;counter++){
 		output += "Fizz";
 	}
 	if(counter%5 == 0){
-		output += "Buzz";
+		output += "Buzzzzzz";
 	}
   // console.log(output || counter);
 }
