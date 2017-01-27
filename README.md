@@ -1,2 +1,2 @@
-# :apple: eachday.js
-:apple: one :apple:
+# :apple: js :apple:
+:apple::apple:
