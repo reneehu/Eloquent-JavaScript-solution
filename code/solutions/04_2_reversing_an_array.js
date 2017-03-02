@@ -8,14 +8,16 @@ function reverseArray(array) {
 function reverseArrayInPlace(array) {
   for (var i = 0; i < Math.floor(array.length / 2); i++) {
     var old = array[i];
+    console.log(old);
     array[i] = array[array.length - 1 - i];
+    console.log(array[i]);
     array[array.length - 1 - i] = old;
+    console.log(array[array.length - 1 - i]);
+    console.log('array now ' + array);
   }
   return array;
 }
 
-console.log(reverseArray(["A", "B", "C"]));
-// → ["C", "B", "A"];
 var arrayValue = [1, 2, 3, 4, 5];
 reverseArrayInPlace(arrayValue);
 console.log(arrayValue);
